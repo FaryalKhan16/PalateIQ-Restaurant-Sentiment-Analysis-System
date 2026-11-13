@@ -1,0 +1,6 @@
+{
+    "selected_model": "logistic_regression",
+    "selection_metric": "validation_macro_f1",
+    "selected_validation_macro_f1": 0.7181484138175148,
+    "test_set_used_for_selection": false
+}

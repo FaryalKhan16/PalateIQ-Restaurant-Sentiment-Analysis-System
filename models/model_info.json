@@ -1,0 +1,13 @@
+{
+    "model": "logistic_regression",
+    "features": "TF-IDF word unigrams and bigrams",
+    "training_rows": 10045,
+    "validation_rows": 2152,
+    "fitted_rows": 12197,
+    "classes": [
+        "Negative",
+        "Neutral",
+        "Positive"
+    ],
+    "final_test_used_for_training": false
+}

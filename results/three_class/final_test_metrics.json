@@ -1,0 +1,9 @@
+{
+    "model": "logistic_regression",
+    "training_plus_validation_rows": 12197,
+    "test_rows": 2153,
+    "accuracy": 0.8248954946586159,
+    "macro_precision": 0.7071945893903719,
+    "macro_recall": 0.7350873183462102,
+    "macro_f1": 0.7195559183015239
+}

@@ -1,0 +1,49 @@
+{
+    "source_file": "data\\yelp_sentiment_master_dataset.csv",
+    "original_rows": 14351,
+    "rows_removed_empty_text_or_label": 0,
+    "duplicate_texts_removed": 1,
+    "clean_rows": 14350,
+    "random_state": 42,
+    "split_percentages": {
+        "train": 70,
+        "validation": 15,
+        "test": 15
+    },
+    "text_column": "text",
+    "label_column": "rating_review",
+    "classes": [
+        "Negative",
+        "Neutral",
+        "Positive"
+    ],
+    "splits": {
+        "train": {
+            "rows": 10045,
+            "percentage": 70.0,
+            "class_counts": {
+                "Negative": 1889,
+                "Neutral": 1256,
+                "Positive": 6900
+            }
+        },
+        "validation": {
+            "rows": 2152,
+            "percentage": 15.0,
+            "class_counts": {
+                "Negative": 404,
+                "Neutral": 270,
+                "Positive": 1478
+            }
+        },
+        "test": {
+            "rows": 2153,
+            "percentage": 15.0,
+            "class_counts": {
+                "Negative": 405,
+                "Neutral": 269,
+                "Positive": 1479
+            }
+        }
+    }
+}
